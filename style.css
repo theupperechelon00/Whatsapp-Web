@@ -1,21 +1,21 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     list-style: none;
 }
 .LHS{
- background-color: red;
+ background-color: #202c33;
  width: 30%;
  height: 100%; 
 }
 .Top{
-    background-color: blue;
+    background-color: #111b21;
     
 }
 .main{
     display: flex;
-    background-color: brown;
+    background-color: #202c33;
     justify-content: space-between;
 }
 .main img{
@@ -25,12 +25,63 @@
 }
 .subclass{
     display: flex;
-    background-color: aqua;
-    justify-content:space-between;
-    align-items: center;
+    background-color: #202c33
+    justify-content : space-between;
+    align-items:center ;
+
+    div{
+        margin: 14px;
+    }
+
+    img{
+        height: 20px;
+        width: 20px;
+    }
+
 }
 
 .Main{
     display: flex;
     justify-content: space-between;
+}
+
+.Search{
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #202c33;
+    margin-left: 2.5%;
+    
+}
+
+.option{
+    display: flex;
+    margin-left: 15px;
+
+    ul {
+        display: flex;
+    }
+
+    li{
+        margin: 10px 30px 0px 0px;
+        border-style: solid;
+        border-radius: 30px;
+        border: none;
+        background-color: #202c33;
+        padding: 5px;
+    }
+}
+
+
+body{
+    display: flex;
+}
+.RHS{
+    background-color: #111b21;
+    text-align: center;
+}
+
+
+button{
+    color: #00A884;
 }
