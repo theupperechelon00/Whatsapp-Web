@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.LHS{
+ background-color: red;
+ width: 30%;
+ height: 100%; 
+}
+.Top{
+    background-color: blue;
+    
+}
+.main{
+    display: flex;
+    background-color: brown;
+    justify-content: space-between;
+}
+.main img{
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+}
+.subclass{
+    display: flex;
+    background-color: aqua;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.Main{
+    display: flex;
+    justify-content: space-between;
+}
