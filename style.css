@@ -5,9 +5,19 @@
     list-style: none;
 }
 .LHS{
- background-color: #202c33;
- width: 30%;
- height: 100%; 
+ width: 33%;
+ height: 100%;
+ border: 0;
+ border-right: 2px;
+ border-style: solid;
+ background-color: #111b21;
+ padding: 10px;
+ display: flex;
+ flex-direction: column;
+ flex-grow: 5;
+ overflow-y: auto; 
+
+
 }
 .Top{
     background-color: #111b21;
@@ -20,14 +30,15 @@
 }
 .main img{
     border-radius: 50px;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
 }
 .subclass{
     display: flex;
     background-color: #202c33
     justify-content : space-between;
     align-items:center ;
+    color:#aebac1;
 
     div{
         margin: 14px;
@@ -44,19 +55,46 @@
     display: flex;
     justify-content: space-between;
 }
-
+ 
 .Search{
-    margin-top: 10px;
-    border-radius: 10px;
-    border: 0;
+    margin-top: 20px;
+    border-radius: none;
+    border: 0; 
     background-color: #202c33;
-    margin-left: 2.5%;
-    
+    /* text-align: center; */
+    padding: 5px;
+    color: #aebac1;
+    border-radius: 40px;
+    align-content: center;
+    display: flex;
 }
 
+input:focus{
+    outline: none;
+}
+
+#search{
+    border: none;
+    background-color: #202c33;
+    border-style: none;
+    width: 90%;
+    border-color: #202c33;
+    color: #aebac1;
+    padding-left: 20px;
+       
+}
+
+#button{
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    border-radius: 30px;
+    text-align: center;
+}
 .option{
     display: flex;
     margin-left: 15px;
+    color:#aebac1;
 
     ul {
         display: flex;
@@ -72,6 +110,24 @@
     }
 }
 
+.chat1{
+    display: flex;
+}
+
+.chat1 img{
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+.Mchat{
+    padding: 5px;
+    margin: 5px;
+    color:white;
+    margin-left: 10px;
+    font-size: larger;
+}
+
 
 body{
     display: flex;
@@ -79,9 +135,35 @@ body{
 .RHS{
     background-color: #111b21;
     text-align: center;
-}
+    mask-position:100%;
+    
+    
+    
 
+    h1{
+        color: #e9edefe0;
+        font-feature-settings: "abvm";
+        font-weight: 300;
+    }
+
+    h2{
+        color: #e9edefe0;
+        font-weight:50;
+    
+    }
+}
+.RHS img{
+    padding: 70px;
+}
 
 button{
-    color: #00A884;
+    padding: 10px 24px;
+    background-color: #06cf69;
+    border-radius: 40px;
+    /* color: #111b21; */
+    font-weight: bold;
 }
+.Encrypt{
+    color: #e9edefe0;
+}
+
