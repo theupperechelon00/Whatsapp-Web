@@ -112,20 +112,77 @@ input:focus{
 
 .chat1{
     display: flex;
+    border: 1px;
 }
-
+.chat2{
+    display: flex;
+    border-bottom: 1px;
+}
+.chat3{
+    display: flex;
+}
+.chat4{
+    display: flex;
+}
+.chat5{
+    display: flex;
+}
+.chat6{
+    display: flex;
+}
+.chat7{
+    display: flex;
+}
+.chat8{
+    display: flex;
+}
 .chat1 img{
     border-radius: 50px;
     width: 50px;
     height: 50px;
 }
-
+.chat2 img{
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+.chat3 img{
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+.chat4 img{
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+.chat5 img{
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+.chat6 img{
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+.chat7 img{
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+.chat8 img{
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
 .Mchat{
     padding: 5px;
     margin: 5px;
     color:white;
     margin-left: 10px;
     font-size: larger;
+    /* border-bottom: 1px; */
 }
 
 
@@ -162,6 +219,8 @@ button{
     border-radius: 40px;
     /* color: #111b21; */
     font-weight: bold;
+    border: none;
+
 }
 .Encrypt{
     color: #e9edefe0;
